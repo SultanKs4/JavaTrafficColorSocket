@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TrafficColorSocket-Client:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TrafficColorSocket_Client_jar</output-path>
+    <root id="archive" name="TrafficColorSocket-Client.jar">
+      <element id="module-output" name="TrafficColorSocket-Client" />
+    </root>
+  </artifact>
+</component>
