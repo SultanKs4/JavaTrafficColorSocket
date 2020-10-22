@@ -42,7 +42,6 @@ public class Client {
             AtomicInteger messageRead = new AtomicInteger(0);
 
             EchoClient(textFieldIPAddress.getText(), Integer.parseInt(textFieldPort.getText()), message, messageWritten, messageRead);
-
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(null, ex.getMessage());
         }
@@ -68,7 +67,7 @@ public class Client {
 
             @Override
             public void failed(Throwable exc, AsynchronousSocketChannel channel) {
-                System.out.println("fail to connect to server");
+                JOptionPane.showMessageDialog(null, "Failed to connect to Server");
             }
 
         });
